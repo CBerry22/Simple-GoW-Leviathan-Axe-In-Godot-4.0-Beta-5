@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://c5l7mtcbx31v4"]
+
+[ext_resource type="Texture2D" uid="uid://dl7t2kwhuhrv" path="res://models/axe/textures/Material__27_baseColor.jpeg" id="1_g54ra"]
+[ext_resource type="Texture2D" uid="uid://cg7h2bp3hv06j" path="res://models/axe/textures/Material__27_emissive.jpeg" id="2_e7f2j"]
+[ext_resource type="Texture2D" uid="uid://dhk6e51r7jpdn" path="res://models/axe/textures/Material__27_metallicRoughness.png" id="3_dypd3"]
+[ext_resource type="Texture2D" uid="uid://bf7ach3f8837i" path="res://models/axe/textures/Material__27_normal.png" id="4_frhcp"]
+
+[resource]
+albedo_texture = ExtResource("1_g54ra")
+metallic = 1.0
+metallic_texture = ExtResource("3_dypd3")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("3_dypd3")
+roughness_texture_channel = 1
+emission_enabled = true
+emission_texture = ExtResource("2_e7f2j")
+normal_enabled = true
+normal_texture = ExtResource("4_frhcp")
+subsurf_scatter_strength = 0.79
